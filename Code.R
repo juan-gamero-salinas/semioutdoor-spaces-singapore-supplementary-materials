@@ -205,21 +205,21 @@ coef_lmbeta
 collin.diag(model.set2 , print = c("all"), digits = 3, p.digits = 3,
             check = TRUE, output = TRUE)
 
-model.pet1 <- lm(pet1 ~ vporosity + popeness + exposure, data=sos) # Gagge's SET for 1 MET
+model.pet1 <- lm(pet1 ~ vporosity + popeness + exposure, data=sos) # PET for 1 MET
 summary(model.pet1)
 coef_lmbeta <- lm.beta(model.pet1)
 coef_lmbeta
 collin.diag(model.pet1, print = c("all"), digits = 3, p.digits = 3,
             check = TRUE, output = TRUE)
 
-model.pet1.5 <- lm(pet1.5 ~ vporosity + popeness + exposure, data=sos) # Gagge's SET for 1.5 METs
+model.pet1.5 <- lm(pet1.5 ~ vporosity + popeness + exposure, data=sos) # PET for 1.5 METs
 summary(model.pet1.5)
 coef_lmbeta <- lm.beta(model.pet1.5)
 coef_lmbeta
 collin.diag(model.pet1.5, print = c("all"), digits = 3, p.digits = 3, 
             check = TRUE, output = TRUE)
 
-model.pet2 <- lm(pet2 ~ vporosity + popeness + exposure, data=sos) # Gagge's SET for 2 METs
+model.pet2 <- lm(pet2 ~ vporosity + popeness + exposure, data=sos) # PET for 2 METs
 summary(model.pet2)
 coef_lmbeta <- lm.beta(model.pet2)
 coef_lmbeta
