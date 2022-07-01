@@ -1,3 +1,8 @@
+### Supplementary Material of the manuscript: "Porosity, openness, and exposure: 
+### Identification of underlying factors associated with semi-outdoor spaces’ microclimate performance and clustering in tropical high-density Singapore".
+# written by Juan Gamero-Salinas, June 2022
+
+
 
 # Loading dataframe
 setwd("G:/...")
